@@ -11,7 +11,7 @@ var Nav = (props) => {
                         <IndexLink to="/" activeClassName="active-link" activeStyle={{"fontWeight": "Bold"}}>Timer</IndexLink>
                     </li>
                     <li>
-                        <Link to="/" activeClassName="active-link" activeStyle={{"fontWeight": "Bold"}}>Countdown</Link>
+                        <Link to="/countdown" activeClassName="active-link" activeStyle={{"fontWeight": "Bold"}}>Countdown</Link>
                     </li>
                 </ul>
             </div>

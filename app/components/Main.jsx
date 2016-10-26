@@ -5,7 +5,7 @@ var Main = (props) => {
   return (
     <div>
       <Nav />
-        <h1>Under Construction....</h1>
+        {props.children}
       </div>
   );
 };
